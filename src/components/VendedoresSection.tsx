@@ -78,7 +78,7 @@ const VendedoresSection = () => {
             <iframe
               width="100%"
               height="315"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://www.youtube.com/embed/SgNvnZgFnp0"
               title="Vendedores Atlântica Natural - Mudança de Vida"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
