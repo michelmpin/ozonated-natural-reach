@@ -36,7 +36,7 @@ const HeroSection = () => {
             variant="outline" 
             size="lg"
             onClick={() => document.getElementById('clientes')?.scrollIntoView({ behavior: 'smooth' })}
-            className="w-full sm:w-auto text-lg py-6 px-8 border-white text-white hover:bg-white hover:text-primary"
+            className="w-full sm:w-auto text-lg py-6 px-8 border-2 border-white text-white bg-white/10 hover:bg-white hover:text-primary backdrop-blur-sm"
           >
             🌿 Conheça os Produtos
           </Button>
