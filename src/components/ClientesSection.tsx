@@ -72,7 +72,7 @@ const ClientesSection = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <Card className="text-center p-6 shadow-medium hover:shadow-strong transition-all duration-300 hover:scale-105">
+          <Card id="produtos" className="text-center p-6 shadow-medium hover:shadow-strong transition-all duration-300 hover:scale-105">
             <CardHeader>
               <div className="mx-auto w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                 <Download className="h-8 w-8 text-primary" />

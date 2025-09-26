@@ -30,7 +30,7 @@ const HeroSection = () => {
             onClick={() => document.getElementById('vendedores')?.scrollIntoView({ behavior: 'smooth' })}
             className="w-full sm:w-auto text-lg py-6 px-8"
           >
-            🚀 Seja um Vendedor
+            🚀 Seja um Consultor
           </Button>
           <Button 
             variant="outline" 

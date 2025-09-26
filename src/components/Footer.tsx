@@ -8,10 +8,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <img src={logoAtlantica} alt="Atlântica Natural" className="h-12 w-auto" />
+              <a href="https://atlanticanatural.com.br/"
+                  target="_blank" 
+                  rel="noopener noreferrer">
+                <img src={logoAtlantica} alt="Atlântica Natural" className="h-12 w-auto" />
+              </a>
             </div>
             <p className="text-white/80 max-w-md">
-              Transformando vidas através de produtos naturais ozonizados e suplementos nutracêuticos. 
+              Transformando vidas através de produtos naturais ozonizados e suplementos nutracêuticos. <br />
               <strong>Ozônio é vida!</strong>
             </p>
             <div className="flex items-center gap-2 mt-4 text-primary-light">
@@ -21,7 +25,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-bold text-lg mb-4 text-primary-light">Para Vendedores</h4>
+            <h4 className="font-bold text-lg mb-4 text-primary-light">Para Consultores</h4>
             <ul className="space-y-2 text-white/80">
               <li>
                 <a 
@@ -30,10 +34,13 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="hover:text-primary-light transition-colors"
                 >
-                  Cadastro de Vendedor
+                  Cadastro
                 </a>
               </li>
-              <li><span>Treinamentos</span></li>
+              <li><a href="https://www.youtube.com/@papocomgouveia"
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary-light transition-colors">Treinamentos</a></li>
               <li><span>Materiais de Apoio</span></li>
               <li><span>Suporte</span></li>
             </ul>
