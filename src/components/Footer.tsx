@@ -79,7 +79,7 @@ const Footer = () => {
         
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-white/60 flex items-center justify-center gap-2">
-            Feito com <Heart className="h-4 w-4 text-red-400" /> pela Atlântica Natural 
+            Feito com <Heart className="h-4 w-4 text-red-400" /> por Michel Menezes 
             <span className="mx-2">•</span>
             Mudança de vida através do ozônio natural
           </p>

@@ -8,8 +8,8 @@ const VendedoresSection = () => {
     <section id="vendedores" className="py-20 bg-gradient-secondary text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Sua <span className="text-secondary-light">Mudança de Vida</span> Começa Aqui
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+            Sua <span className="text-secondary">Mudança de Vida</span> Começa Aqui
           </h2>
           <p className="text-xl max-w-3xl mx-auto opacity-95">
             Junte-se a milhares de vendedores que transformaram suas vidas vendendo produtos que realmente funcionam. 
@@ -29,8 +29,8 @@ const VendedoresSection = () => {
           <div className="space-y-6">
             <Card className="bg-white/10 border-white/20 text-white">
               <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <DollarSign className="h-8 w-8 text-secondary-light" />
+                <CardTitle className="flex items-center gap-3 text-white">
+                  <DollarSign className="h-8 w-8 text-secondary" />
                   Renda Extra Garantida
                 </CardTitle>
               </CardHeader>
@@ -41,8 +41,8 @@ const VendedoresSection = () => {
 
             <Card className="bg-white/10 border-white/20 text-white">
               <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <Users className="h-8 w-8 text-secondary-light" />
+                <CardTitle className="flex items-center gap-3 text-white">
+                  <Users className="h-8 w-8 text-secondary" />
                   Comunidade de Sucesso
                 </CardTitle>
               </CardHeader>
@@ -53,8 +53,8 @@ const VendedoresSection = () => {
 
             <Card className="bg-white/10 border-white/20 text-white">
               <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <TrendingUp className="h-8 w-8 text-secondary-light" />
+                <CardTitle className="flex items-center gap-3 text-white">
+                  <TrendingUp className="h-8 w-8 text-secondary" />
                   Crescimento Constante
                 </CardTitle>
               </CardHeader>
@@ -66,8 +66,8 @@ const VendedoresSection = () => {
         </div>
 
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center">
-          <h3 className="text-2xl font-bold mb-4 flex items-center justify-center gap-2">
-            <Gift className="h-8 w-8 text-secondary-light" />
+          <h3 className="text-2xl font-bold mb-4 flex items-center justify-center gap-2 text-white">
+            <Gift className="h-8 w-8 text-secondary" />
             Assista ao Vídeo e Descubra Como Começar
           </h3>
           <p className="text-lg mb-6 opacity-95">
