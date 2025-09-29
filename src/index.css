@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design system para Atlântica Natural - Produtos Naturais Ozonizados
+Cores inspiradas em natureza, saúde e bem-estar com tons de verde, azul e elementos orgânicos.
+Todas as cores DEVEM ser HSL.
+*/
+
+@layer base {
+  :root {
+    /* Background colors */
+    --background: 120 20% 98%;
+    --foreground: 155 25% 15%;
+
+    /* Card colors */
+    --card: 0 0% 100%;
+    --card-foreground: 155 25% 15%;
+
+    /* Popover colors */
+    --popover: 0 0% 100%;
+    --popover-foreground: 155 25% 15%;
+
+    /* Primary colors - Verde natural inspirado no ozônio e natureza */
+    --primary: 155 60% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 155 45% 50%;
+    --primary-dark: 155 70% 25%;
+
+    /* Secondary colors - Dourado elegante */
+    --secondary: 45 90% 55%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 45 85% 70%;
+    --secondary-dark: 45 95% 45%;
+
+    /* Accent colors - Verde claro para destaques */
+    --accent: 140 50% 85%;
+    --accent-foreground: 155 60% 20%;
+
+    /* Muted colors */
+    --muted: 120 15% 95%;
+    --muted-foreground: 155 20% 45%;
+
+    /* Success colors para call-to-actions */
+    --success: 120 60% 40%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning colors */
+    --warning: 45 90% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Destructive colors */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Border and input */
+    --border: 155 20% 85%;
+    --input: 155 15% 92%;
+    --ring: 155 60% 35%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(155 60% 35%), hsl(140 55% 45%));
+    --gradient-secondary: linear-gradient(135deg, hsl(45 90% 55%), hsl(45 85% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(155 60% 35%) 0%, hsl(45 90% 55%) 50%, hsl(140 55% 45%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(120 15% 98%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(155 20% 20% / 0.08);
+    --shadow-medium: 0 8px 25px -5px hsl(155 30% 15% / 0.12);
+    --shadow-strong: 0 15px 35px -8px hsl(155 40% 10% / 0.15);
+    --shadow-glow: 0 0 30px hsl(155 60% 35% / 0.2);
+
+    /* Animation curves */
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode com tons naturais mais escuros */
+    --background: 155 15% 8%;
+    --foreground: 120 20% 95%;
+
+    --card: 155 12% 12%;
+    --card-foreground: 120 20% 95%;
+
+    --popover: 155 12% 12%;
+    --popover-foreground: 120 20% 95%;
+
+    --primary: 155 50% 55%;
+    --primary-foreground: 155 15% 8%;
+    --primary-light: 155 45% 65%;
+    --primary-dark: 155 60% 35%;
+
+    --secondary: 45 80% 65%;
+    --secondary-foreground: 45 20% 15%;
+    --secondary-light: 45 75% 75%;
+    --secondary-dark: 45 85% 55%;
+
+    --accent: 140 40% 25%;
+    --accent-foreground: 120 20% 95%;
+
+    --muted: 155 10% 15%;
+    --muted-foreground: 155 15% 65%;
+
+    --success: 120 50% 50%;
+    --success-foreground: 155 15% 8%;
+
+    --warning: 45 80% 65%;
+    --warning-foreground: 155 15% 8%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 155 15% 8%;
+
+    --border: 155 10% 20%;
+    --input: 155 8% 18%;
+    --ring: 155 50% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
